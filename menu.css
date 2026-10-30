@@ -1,0 +1,22 @@
+body { margin: 20px; font-family: "Times New Roman", serif; }
+.vnav {
+    width: 200px;
+    box-shadow: 4px 4px #999;
+    border-radius: 4px;
+}
+.vnav .item { position: relative; }     /* от него позиционируется .drop */
+.vnav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    background: linear-gradient(to bottom, #e3e3e3, #efefef);
+}
+.vnav .pt { font-size: 18px; font-weight: 700; text-transform: uppercase; padding: 12px 10px; }
+.vnav .drop_item { font-size: 16px; font-weight: normal; padding: 12px 10px; }
+.vnav a:hover { background: linear-gradient(to bottom, #ccc, #919191); }
+
+.drop { display: none; }
+.item:hover > .drop { display: block; }

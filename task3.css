@@ -1,0 +1,6 @@
+@import url(menu.css);
+
+.vnav a { background: linear-gradient(to bottom, #d2d2d2, #a9a9a9); }
+.vnav .drop_item { background: linear-gradient(to bottom, #e3e3e3, #efefef); }
+.drop { position: static; }
+.vnav a:hover { background: linear-gradient(to bottom, #ccc, #919191); }

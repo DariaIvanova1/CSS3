@@ -1,0 +1,11 @@
+@import url(menu.css);
+.drop {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    margin-left: 4px;
+}
+/* вложенный пункт 2 уровня внутри .drop тоже позиционируется относительно себя */
+.drop .item > a { font-size: 16px; font-weight: normal; padding: 12px 10px; }
+.drop .item > .drop { margin-left: 4px; }
